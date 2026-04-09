@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'uberbold1';
+    src: url('fonts/UberMoveText-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'uberbold2';
+    src: url('fonts/UberMoveText-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'ubersmall1';
+    src: url('fonts/UberMoveText-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'ubersmall2';
+    src: url('fonts/UberMoveText-Regular.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding-top: 70px;
+}
+
+#nav1 {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-left {
+    margin-left: 7%;
+    display: flex;
+    width: 25%;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#nav-left h1 {
+    font-family: 'ubersmall1';
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+
+#nav-left ul,
+#nav-right ul {
+    font-family: 'uberbold1';
+    font-size: 14px;
+    display: flex;
+    list-style: none;
+}
+
+#nav-left ul li a,
+#nav-right ul li a {
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#nav-left ul li a:hover,
+#nav-right ul li a:hover {
+    background-color: rgb(39, 39, 39);
+    border-radius: 50px;
+}
+
+#signup {
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#nav-right ul div a {
+    text-decoration: none;
+}
+
+#nav-right ul div a:hover {
+    background-color: white;
+}
+
+#nav-right {
+    margin-right: 8%;
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    padding-top: 15px;
+    margin-right: 8%;
+}
+
+#nav2 ul {
+    display: flex;
+    gap: 30px;
+    font-family: 'ubersmall1';
+}
+
+#nav2 ul li {
+    list-style: none;
+}
+
+#nav2 span {
+    font-weight: bold;
+    font-family: 'uberbold1';
+    font-size: 22px;
+}
+
+#nav2 ul li a {
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#nav2 ul li a:hover {
+    color: black;
+}
+
+.after-nav {
+    justify-content: space-between;
+    display: flex;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+#hero-left {
+    width: 50%;
+    margin-left: 12%;
+    line-height: 1.4;
+}
+
+#hero-right {
+    width: 50%;
+}
+
+#hero-left h3 {
+    font-family: 'ubersmall1';
+    font-size: 15px;
+}
+
+#hero-left h3 a {
+    font-weight: 300;
+    color: black;
+}
+
+#hero-left h1 {
+    font-family: 'uberbold1';
+    font-size: 50px;
+}
+
+#hero-right {
+    margin-right: 14%;
+}
+
+#hero-right img {
+    width: 100%;
+}
+
+#offer {
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'ubersmall1';
+}
+
+#offer i {
+    margin-right: 5px;
+    color: green;
+}
