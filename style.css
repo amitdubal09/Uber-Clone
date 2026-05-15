@@ -395,6 +395,7 @@ footer {
 }
 
 #planforlater {
+    margin-bottom: 30px;
     margin-top: 30px;
     width: 100%;
     display: flex;
@@ -402,7 +403,8 @@ footer {
 }
 
 .planforlater {
-    width: 77%;
+    width: 90%;
+    margin-left: 170px;
 }
 
 .planforlater h1 {
@@ -418,7 +420,6 @@ footer {
 }
 
 .divide-left {
-    width: 60%;
     display: flex;
     background-color: #9DCDD6;
     border-radius: 15px;
@@ -426,19 +427,53 @@ footer {
 
 .sub-left-1 {
     padding: 35px;
+    width: 80%;
     background-color: rgb(200, 229, 255);
     border-radius: 15px;
 }
-.sub-left-1 h1{
-    margin-top: 15px;margin-bottom: 20px;
+
+.sub-left-1 h1 {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
-.sub-left-1 span{
-    font-weight: 700;font-size: 17px;
+
+.sub-left-1 span {
+    font-weight: 700;
+    font-size: 17px;
 }
 
 .divide-right {
     width: 40%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 147, 147);
     border-radius: 15px;
-    border: 1px solid black;
+}
+
+.sub-left-2 img {
+    width: 100%;
+}
+
+.time {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.time-left,
+.time-right {
+    white-space: nowrap;
+    width: 50%;
+}
+
+.time-left input,
+.time-right input {
+    padding: 10px;
+    margin-left: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.time i {
+    font-size: 18px;
 }
