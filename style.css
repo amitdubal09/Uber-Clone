@@ -395,26 +395,30 @@ footer {
 }
 
 #planforlater {
+    height: 100vh;
     margin-bottom: 30px;
     margin-top: 30px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .planforlater {
-    width: 90%;
-    margin-left: 170px;
+    width: 100%;
+    margin-left: 180px;
 }
 
 .planforlater h1 {
     font-family: 'uberbold1';
-    margin-bottom: 15px;
+    margin-bottom: 23px;
 }
 
 .divide-div {
+    max-height: 55vh;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 55% 45%;
     font-family: 'ubersmall1';
     gap: 30px;
 }
@@ -441,12 +445,6 @@ footer {
 .sub-left-1 span {
     font-weight: 700;
     font-size: 17px;
-}
-
-.divide-right {
-    width: 40%;
-    background-color: rgb(250, 147, 147);
-    border-radius: 15px;
 }
 
 .sub-left-2 img {
@@ -476,4 +474,15 @@ footer {
 
 .time i {
     font-size: 18px;
+}
+
+.divide-right {
+    width: 50%;
+    background-color: rgb(250, 147, 147);
+    border-radius: 15px;
+}
+
+.section-plan {
+    background-color: red;
+    height: 70vh;
 }
